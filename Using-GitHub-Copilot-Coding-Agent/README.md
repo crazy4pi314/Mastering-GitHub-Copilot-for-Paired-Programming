@@ -337,7 +337,7 @@ In those centrally managed agent profiles, you can define MCP servers directly i
 
 2. The default GitHub MCP server is pre-configured and gives the agent access to your repository's issues, historic pull requests, and code search — grounding its responses in real project context.
 
-3. To add a third-party MCP server (for example: a Jira integration, an Azure DevOps integration, or other 3rd party service), follow the [MCP integration guide](https://docs.github.com/copilot/how-tos/use-copilot-agents/coding-agent/extend-coding-agent-with-mcp) and add the server configuration to `.github/mcp.json`.
+3. If you wish to add a third-party MCP server (for example: a Jira integration, an Azure DevOps integration, or other 3rd party service), follow the [MCP integration guide](https://docs.github.com/copilot/how-tos/use-copilot-agents/coding-agent/extend-coding-agent-with-mcp) and add the server configuration to `.github/mcp.json`.
 
 ### Exercise 4D: Hooks — Lifecycle Automation
 
