@@ -30,7 +30,7 @@ By the end of this module, you'll acquire the skills to:
 ## 📋 Requirements
 
 1. Enable your [GitHub Copilot service](https://github.com/github-copilot/signup) (Pro, Pro+, Business, or Enterprise plan required for coding agent)
-2. Fork and then clone [this repository locally](https://github.com/github-samples/node-recipe-app?quickstart=1) for the following exercises. You can also run this lab in a GitHub Codespace from your forked repository.
+2. Fork [this repository locally](https://github.com/github-samples/node-recipe-app?quickstart=1) for the following exercises. You can also run this lab in a GitHub Codespace from your forked repository.
 
 ---
 
