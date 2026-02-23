@@ -235,7 +235,7 @@ In the above exercises we achieved the following:
 - Add hooks to execute custom shell commands during agent execution.
 - Understand Copilot Memory (public preview).
 
-### Part 1: Custom Instructions
+### Exercise 4A: Custom Instructions
 
 Custom instructions are Markdown files you store in your repository that tell Copilot about your preferences, conventions, and architecture — so you don't have to repeat yourself in every task.
 
@@ -270,7 +270,7 @@ Custom instructions are Markdown files you store in your repository that tell Co
 
 > **Tip:** You can also define custom instructions at the organization level from your organization's settings.
 
-### Part 2: Custom Agents
+### Exercise 4B: Custom Agents
 
 **Custom agents** are specialized versions of Copilot you define once using a Markdown file. Each profile encodes a specific persona, set of tools, and behavior. Custom agent profiles can also be defined at the [organization level](https://docs.github.com/copilot/how-tos/administer-copilot/manage-for-organization/prepare-for-custom-agents) in a `.github-private` repository, making them available across all repositories in your organization.
 
@@ -316,7 +316,7 @@ Custom instructions are Markdown files you store in your repository that tell Co
 
 3. Commit both files. When you assign a task from the agents panel or an issue, you can now select a specific custom agent to use.
 
-### Part 3: Model Context Protocol (MCP) Servers
+### Exercise 4C: Model Context Protocol (MCP) Servers
 
 **MCP servers** give Copilot coding agent access to external data sources and tools — such as a project management system, internal documentation, or a database — that it wouldn't be able to reach otherwise. For organization-level or enterprise-level custom agents, the agent definition is managed centrally (not just in a repo under `.github/agents/`).
 
@@ -339,7 +339,7 @@ In those centrally managed agent profiles, you can define MCP servers directly i
 
 3. To add a third-party MCP server (for example: a Jira integration, an Azure DevOps integration, or other 3rd party service), follow the [MCP integration guide](https://docs.github.com/copilot/how-tos/use-copilot-agents/coding-agent/extend-coding-agent-with-mcp) and add the server configuration to `.github/mcp.json`.
 
-### Part 4: Hooks — Lifecycle Automation
+### Exercise 4D: Hooks — Lifecycle Automation
 
 **Hooks** execute custom shell commands at specific points during an agent session. Use them to add validation, custom linting, security scanning, or notification workflows.
 
@@ -363,7 +363,7 @@ hooks:
 
 If a hook exits with a non-zero status, Copilot will see the output and attempt to address the issue before completing its session.
 
-### Part 5: Copilot Memory (Public Preview)
+### Exercise 4E: Copilot Memory (Public Preview)
 
 **Copilot Memory** allows the coding agent to persist facts it learns about your repository across sessions — so it builds up knowledge over time without you having to repeat context.
 
